@@ -273,7 +273,7 @@ if (isset($_POST['poto'])) {
                 echo "<script>document.location.href='edit_mentor.php?id=$id'</script>";
             } else {
                 echo "<script>swal({
-title: 'Maaf!',
+title: 'Maaf!!',
 text: 'Terjadi kesalahan saat mencoba untuk menyimpan data ke database.!',
 icon: 'warning',
 button: 'ok',
